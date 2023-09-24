@@ -843,6 +843,27 @@ span{
     .portfolio .portfolio-container{
         grid-template-columns: 1fr;
     }
+    .home .profession-container .overlay {
+        position: fixed;
+        top: 85rem;
+        left: 50%;
+        right: 0;
+        transform: rotate(90deg) translate(-50%, 50%) scaleY(3);
+        border-width: 23.9rem;
+    }
+    .home .profession-box .circle{
+        position: fixed;
+        width: 700px;
+        height: 700px;
+        z-index: -1;
+    }
+    .home .profession-container .profession-box{
+        position: fixed;
+        top: 65%;
+        left: 0;
+        border-radius: 0;
+        width: 100%;
+    }
 }
 
 @media (max-width: 450px){
